@@ -1,0 +1,5 @@
+CREATE DATABASE perntodo;
+CREATE TABLE todos(
+  TodoId SERIAL PRIMARY KEY ,
+  Descriptions VARCHAR(250)
+);
